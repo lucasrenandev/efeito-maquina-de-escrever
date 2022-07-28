@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+section {
+    max-width: 500px;
+    margin: 60px auto;
+}
+
+section h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+section h1::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: efeitoBarra 0.7s infinite;
+}
+
+@keyframes efeitoBarra {
+    
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
