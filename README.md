@@ -1,3 +1,3 @@
 # efeito-maquina-de-escrever
 
-Efeito maquina de escrever com html, css e javacript
+Efeito maquina de escrever 
